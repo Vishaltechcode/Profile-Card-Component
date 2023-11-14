@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@100;200&family=Roboto:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: hsl(185, 75%, 39%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    width: 320px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-top{
+    background: url(./images/bg-pattern-card.svg);
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 100px;
+    left: 100px;
+}
+.card-actions{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-top: 2px solid rgb(180, 177, 177);
+    margin-bottom: 20px;
+}
+.card-body{
+    margin-top: 80px;
+}
+h5{
+    font-size: 17px;
+}
+.light-grey{
+    color: hsl(0, 0%, 59%);
+}
